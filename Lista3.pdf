@@ -1,0 +1,35 @@
+01. Um ponteiro é uma “variável especial” que recebe o valor do endereço de determinado tipo de variável. As principais aplicações de ponteiros são em funções (nas quais os ponteiros determinam a modificação das variáveis da função principal) e em vetores, sendo o vetor um ponteiro para um conjunto de variáveis de um tipo específico, e seus índices determinando qual delas é utilizada.
+
+02. B
+
+03. A
+
+04. C
+
+05. D
+
+06. A instrução está incorreta, pois a variável px já é um endereço. Assim, ao colocarmos um “*” não estamos passando o parâmetro adequado para a função scanf.
+
+07. main(){
+	int j, *pj = &j;
+	*pj=3;
+}
+
+08. *px/=5;
+
+09. a) 1	b) -2 		c) 3
+
+10. 'endereço de i' 7 5 15 9
+
+11. a, d e g
+
+12. e
+
+13. a, c, d, g, h, j
+
+14. c, e, f, i, j
+
+15. a) 10	b) 5.9	c) FFA0	d) &y	e) 10	f) 5.9	g) FFF0	h) FFB4	i) FFA0
+j) FFB5	k) FFB3	l) 5.9	m) FFA6	n) FFF0	o) 11	p) FFA1
+q) FFD4
+
